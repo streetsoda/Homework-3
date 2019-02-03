@@ -18,12 +18,12 @@ function billNumber(int $amount)
     }
 }
 
-    $amount = (int)$argv[1];
-    if ($amount >= 1 && $amount <= 100000) 
-    {
-        billNumber($amount);
-    } 
-    else 
-    {
-        echo "Please enter amount from 1 to 100000";
-    }
+$amount = (int)$argv[1];
+if ($amount >= 1 && $amount <= 100000) 
+{
+    billNumber($amount);
+} 
+else 
+{
+    echo "Please enter amount from 1 to 100000";
+}
