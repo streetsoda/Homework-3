@@ -74,7 +74,6 @@ function getSubDomain($url, $parse)
     if(count($hoste) > 1)
     {
        array_pop($hoste);
-       array_pop($hoste);
        $subDomain = implode('.',$hoste);
        return $subDomain;
     }
