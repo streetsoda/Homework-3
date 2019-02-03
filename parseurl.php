@@ -1,4 +1,6 @@
 ﻿<?php
+//php parseurl.php *link to be parsed*
+
 $url = $argv[1];
 $parse = parse_url($url);
 $stTld = [];
